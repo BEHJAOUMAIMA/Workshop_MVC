@@ -20,7 +20,7 @@
             <p class="fs-3 fw-bold">Rire ça fait du bien et pour rire il faut déjà se sentir bien. </p>
             <p class="fs-4">Créer vos propres blagues  <i class="bi bi-emoji-laughing"></i> !</p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-light add mx-auto my-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button onclick="addNew();" type="button" class="btn btn-light add mx-auto my-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <i class="bi bi-plus-lg me-1"></i> Ajouter une blague
             </button>
         </div>
@@ -43,4 +43,5 @@
         $('#dataTableId').DataTable();
     });
 </script>
+<script src="../../assets/main.js"></script>
 </html>
