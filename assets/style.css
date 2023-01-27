@@ -25,3 +25,7 @@
     font-size: 18px;
 
 }
+.row{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
