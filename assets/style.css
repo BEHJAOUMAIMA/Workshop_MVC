@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@500;600;700;900&display=swap');
+:root{
+    --font-family-affiche : 'Dancing Script', cursive;
+    --font-family-body: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.intro{
+    font-family: var(--font-family-affiche);
+    width: 800px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.add{
+    width: 40%;
+    text-align: center;
+    font-family: var(--font-family-body);
+    font-weight: 700;
+    font-size: 16px;
+}
+.add:hover{
+    color: rgb(213, 52, 106);
+    font-size: 18px;
+
+}
